@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  echobot:
+    container_name: echobot
+    build: .
+    env_file:
+      - ./echobot/.env
